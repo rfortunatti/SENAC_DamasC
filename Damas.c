@@ -4,9 +4,9 @@
 
 /*
     Centro Universitario SENAC Santo Amaro
-    Engenharia da ComputaÁ„o
-        Algoritmos e ProgramaÁ„o
-        Prof∫ Fabio Lubacheski
+    Engenharia da Computa√ß√£o
+        Algoritmos e Programa√ß√£o
+        Prof¬∫ Fabio Lubacheski
         Trabalho 01 - Jogo de Damas
 
     Rafael Fortunatti Simoes
@@ -15,8 +15,8 @@
 */
 
 /*Regras basicas para esse jogo de damas:
-    -As pecas normais se movimentam apenas nas diagonais em relaÁao ao oponente
-    -N„o eh permitido "comer" mais de uma peca em uma unica jogada, por mais possivel que seja faze-lo.
+    -As pecas normais se movimentam apenas nas diagonais em rela√ßao ao oponente
+    -N√£o eh permitido "comer" mais de uma peca em uma unica jogada, por mais possivel que seja faze-lo.
     -Os jogadores serao identificados no tabuleiro pelas letras P e B.
 */
 
@@ -24,7 +24,7 @@
 char checarPecaVazia (int tabuleiro[][8], int xMatriz, int yMatriz)
 {
     //Esta funcao verifica o que existe em uma posicao especifica do tabuleiro nas coordenadas especificadas.
-    //Caso esteja vazia, retorna 1; caso contr·rio, a peca presente.
+    //Caso esteja vazia, retorna 1; caso contr√°rio, a peca presente.
 
     if(tabuleiro[xMatriz][yMatriz] == ' ')
         return 1;
@@ -182,7 +182,7 @@ int game(char tabuleiro[][8], char idJogador, int xFrom, int yFrom, int leftRigh
 
 }
 
-//A funÁ„o status, que recebe apenas o tabuleiro como parametro, conta a quantidade de pecas brancas e pretas presente.
+//A fun√ß√£o status, que recebe apenas o tabuleiro como parametro, conta a quantidade de pecas brancas e pretas presente.
 //Isto eh, quantos chars de P e B existem na matriz. Caso retorne 0, o jogo continua. 1 para Preto vencedor e 2 para Branco.
 
 int status(char tabuleiro[][8])
@@ -274,7 +274,7 @@ int main(){
 
     //Acima estao declaradas variaveis como:
     //tabuleiroMatriz: ponteiro para a matriz tabuleiro, inicializada em initialize()
-    //leftRight, um int bin·rio que recebe a ordem do jogador de esquerda ou direita
+    //leftRight, um int bin√°rio que recebe a ordem do jogador de esquerda ou direita
     //xJogador e yJogador guardam as coordenadas da peca escolhida no tabuleiro, sendo xJogador a linha e yJogador a coluna.
 
     //O laco que efetivamente roda o jogo
